@@ -60,7 +60,7 @@ age.map(function(i) {
   
   Export.image.toDrive({
     image: results,
-    scale: 250,
+    scale: 1000,
     description: 'results_1km_year_'+ i,
     fileNamePrefix: 'results_1km_year_'+ i,
     folder: 'ee',
